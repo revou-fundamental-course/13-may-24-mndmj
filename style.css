@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+header h1 {
+  margin: 0;
+  background-color: #2f55a4;
+  padding-block: 20px;
+  color: #fff;
+  text-align: center;
+}
+.sisi-kiri {
+  float: left;
+  width: 49.8%;
+  border: solid 1px #2f55a4;
+}
+.sisi-kanan {
+  float: right;
+  width: 49.8%;
+  border: solid 1px #2f55a4;
+}
+section {
+  padding: 10px;
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-block: 10px;
+  padding: 10px;
+}
+button {
+  padding: 20px 35px;
+  border: 0;
+  font-size: 12pt;
+  color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.btn-submit {
+  background-color: #2f55a4;
+  display: flex;
+  margin-inline: auto;
+}
+.btn-reset {
+  background-color: orange;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-inline: 10px;
+}

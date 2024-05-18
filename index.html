@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitung Luas & Keliling Segi3 mndmj</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Luas -->
+      <div class="sisi-kiri">
+        <header>
+          <h1>Luas Segitiga</h1>
+        </header>
+        <section>
+          <p>Rumus luas segitiga yaitu :</p>
+          <h3>L = 1/2 x a x t</h3>
+          <p>Di mana :</p>
+          <p>L = luas</p>
+          <p>a = panjang alas</p>
+          <p>t = tinggi</p>
+        </section>
+        <section>
+          <h1>Hitung Luas Segitiga</h1>
+          <input type="number" id="a" /><br />
+          <input type="number" id="t" />
+          <p>L = 1/2 x a x t</p>
+          <p>L = 1/2 x <span id="num"></span></p>
+          <span id="L"></span>
+        </section>
+        <button class="btn-submit" type="submit" onclick="Luas()">
+          Hitung
+        </button>
+        <button class="btn-reset" type="reset" onClick="ResetLuas()">
+          Reset
+        </button>
+      </div>
+
+      <!-- Keliling -->
+      <div class="sisi-kanan">
+        <header>
+          <h1>Keliling Segitiga</h1>
+        </header>
+        <section>
+          <p>Rumus keliling segitiga yaitu :</p>
+          <h3>K = S1 x S2 x S3</h3>
+          <p>Di mana :</p>
+          <p>K = keliling</p>
+          <p>S1 = sisi A</p>
+          <p>S2 = sisi B</p>
+          <p>S3 = sisi C</p>
+        </section>
+        <section>
+          <h1>Hitung Keliling Segitiga</h1>
+          <input type="number" id="s1" /><br />
+          <input type="number" id="s2" /><br />
+          <input type="number" id="s3" />
+          <p>K = S1 x S2 x S3</p>
+          <p>K = <span id="numK"></span></p>
+          <span id="K"></span>
+        </section>
+        <button class="btn-submit" type="submit" onclick="Keliling()">
+          Hitung
+        </button>
+        <button class="btn-reset" type="reset" onclick="ResetKeliling()">
+          Reset
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
